@@ -19,9 +19,6 @@
 #include "time.h"
 #include <Credentials.h>
 
-//const char* ssid = "xxxx";
-//const char* password = "yyyyyy";
-
 struct stationDefinitions {
   byte   type;
   byte   IP;
