@@ -18,8 +18,8 @@
 #include <ArduinoOTA.h>
 #include "time.h"
 
-const char* ssid = "Rohan";
-const char* password = "Good Morning... Darling! @224477%";
+const char* ssid = "xxxx";
+const char* password = "yyyyyy";
 
 struct stationDefinitions {
   byte   type;
