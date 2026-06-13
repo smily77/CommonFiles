@@ -1,0 +1,10 @@
+# Die gemeinsamen Header xCom*.h werden NICHT mehr im CommonFiles-Repo
+# versioniert. Die Master-Dateien liegen im CatFind-Repo unter
+# Controller\Manager6_x_0\. Lokal werden sie per update_xcom_links.bat
+# als echte Windows-Verknuepfung (oder Kopie) in dieses Verzeichnis gelegt.
+#
+# Grund: Git-Symlinks werden auf Windows ohne Entwicklermodus/Adminrechte nur
+# als unbrauchbare Text-Stubs (".symlink", 0 KB) ausgecheckt, die die Arduino
+# IDE nicht als #include findet. Durch das Ignorieren entstehen beim Pull
+# keine kaputten Stubs mehr.
+/xCom*.h
